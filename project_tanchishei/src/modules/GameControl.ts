@@ -32,6 +32,29 @@ class GameControl {
         // console.log(this.direction);
         // this.isLive && this.run();
         this.run();
+        //根据按键方向修改X和Y
+        // switch (this.direction) {
+        //     case "ArrowUp":
+        //     case "Up":
+        //         //蛇头旋转180度
+                
+        //         break;
+        //     case "ArrowDown":
+        //     case "Down":
+        //         //移除旋转属性
+                
+        //         break;
+        //     case "ArrowLeft":
+        //     case "Left":
+        //         //逆时针旋转45度
+                
+        //         break;
+        //     case "ArrowRight":
+        //     case "Right":
+        //         //顺时针旋转45度
+                
+        //         break;
+        // }
     }
     //蛇移动的方法
     run() {

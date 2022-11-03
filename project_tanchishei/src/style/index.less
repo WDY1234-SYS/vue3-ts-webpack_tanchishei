@@ -34,7 +34,15 @@
 
       //设置蛇的样式
       #snake {
-         &>div {
+         &>div:nth-child(1) {
+            width: 10px;
+            height: 10px;
+            background-size: 10px;
+            background-image: url(../static/蛇.png);
+            //开启定位
+            position: absolute;
+         }
+         &>div:nth-child(n+2) {
             width: 10px;
             height: 10px;
             background-color: #000;
